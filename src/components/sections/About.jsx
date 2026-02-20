@@ -1,12 +1,13 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
 import { SectionLabel, SectionTitle, Accent, Reveal } from '../ui';
-import { personal, aboutTags, education } from '../../data';
+import { aboutTags, education } from '../../data';
 
 export default function About() {
   return (
     <section id="about" className="section-wrapper">
       <Reveal>
-        <SectionLabel>// 01. about</SectionLabel>
+        <SectionLabel>&#47;&#47; 01. about</SectionLabel>
         <SectionTitle>
           Not just a developer.<br />
           <Accent>A system thinker.</Accent>

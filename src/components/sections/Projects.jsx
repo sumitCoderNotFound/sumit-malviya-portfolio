@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import { motion } from 'framer-motion';
 import { SectionLabel, SectionTitle, Accent, Reveal } from '../ui';
 import ProjectCard from './ProjectCard';
 import { projectCategories } from '../../data';
@@ -55,7 +55,7 @@ export default function Projects() {
   return (
     <section id="projects" className="section-wrapper">
       <Reveal>
-        <SectionLabel>// 02. projects</SectionLabel>
+        <SectionLabel>&#47;&#47; 02. projects</SectionLabel>
         <SectionTitle>
           Shipped. Designed.<br />
           <Accent>Production-grade.</Accent>

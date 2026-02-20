@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useRef, useEffect, useState } from 'react';
 import { SectionLabel, SectionTitle, Accent, Reveal, Tag } from '../ui';
 import { experiences } from '../../data';
@@ -234,7 +235,7 @@ export default function Experience() {
   return (
     <section id="experience" className="section-wrapper">
       <Reveal>
-        <SectionLabel>// 06. experience</SectionLabel>
+        <SectionLabel>&#47;&#47; 06. experience</SectionLabel>
         <SectionTitle>
           Built for<br />
           <Accent>production environments.</Accent>

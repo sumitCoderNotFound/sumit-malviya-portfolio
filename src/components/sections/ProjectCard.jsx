@@ -57,7 +57,7 @@ export default function ProjectCard({ project, index }) {
       style={{
         opacity: visible ? 1 : 0,
         transform: visible ? 'translateY(0)' : 'translateY(24px)',
-        transition: `opacity 0.55s ease ${index * 0.07}s, transform 0.55s ease ${index * 0.07}s`,
+        transition: `opacity 0.55s ease ${index * 0.07}s, transform 0.55s ease ${index * 0.07}s, border-color 0.25s`,
         borderRadius: 16,
         border: '1px solid var(--glass-border)',
         background: 'var(--glass)',
@@ -65,7 +65,6 @@ export default function ProjectCard({ project, index }) {
         overflow: 'hidden',
         display: 'flex',
         flexDirection: 'column',
-        transition: 'border-color 0.25s',
         cursor: 'default',
       }}
       onMouseEnter={e => (e.currentTarget.style.borderColor = accentBdr)}

@@ -10,10 +10,11 @@ export function useScrollReveal(options = {}) {
     if (!el) return;
     const observer = new IntersectionObserver(
       ([entry]) => { if (entry.isIntersecting) setVisible(true); },
-      { threshold: 0.1, ...options }
+      { threshold: 0.1 }
     );
     observer.observe(el);
     return () => observer.disconnect();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return { ref, visible };

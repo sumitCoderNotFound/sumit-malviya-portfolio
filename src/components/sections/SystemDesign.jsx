@@ -1,15 +1,11 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import { motion } from 'framer-motion';
 import { SectionLabel, SectionTitle, Accent, Reveal, ArchNode } from '../ui';
 import { systemDesigns } from '../../data';
 
 function SystemCard({ design, index }) {
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.1 }}
-      transition={{ duration: 0.6, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
+    <div
       style={{
         padding: 26, borderRadius: 16,
         border: '1px solid var(--glass-border)',
@@ -40,7 +36,7 @@ function SystemCard({ design, index }) {
           <ArchNode key={ni} label={node.label} cls={node.cls} />
         ))}
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -48,7 +44,7 @@ export default function SystemDesign() {
   return (
     <section className="section-wrapper">
       <Reveal>
-        <SectionLabel>// 04. architecture thinking</SectionLabel>
+        <SectionLabel>&#47;&#47; 04. architecture thinking</SectionLabel>
         <SectionTitle>
           Systems I have<br />
           <Accent>designed.</Accent>

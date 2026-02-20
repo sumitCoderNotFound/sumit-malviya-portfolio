@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React, { useState, useRef, useEffect } from 'react';
-import { motion } from 'framer-motion';
 import { SectionLabel, SectionTitle, Accent, Reveal } from '../ui';
 import { skills, radarData } from '../../data';
 import { getAccentColor } from '../../utils';
@@ -144,7 +144,7 @@ export default function Skills() {
   return (
     <section id="skills" className="section-wrapper">
       <Reveal>
-        <SectionLabel>// 03. skills</SectionLabel>
+        <SectionLabel>&#47;&#47; 03. skills</SectionLabel>
         <SectionTitle>
           Stack depth.<br />
           <Accent>Proven in production.</Accent>

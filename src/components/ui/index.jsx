@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars, react/jsx-no-comment-textnodes */
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { getAccentColor, getAccentBg, getAccentBorder } from '../../utils';

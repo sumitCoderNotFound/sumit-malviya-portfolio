@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from 'react';
-import { motion } from 'framer-motion';
 import { SectionLabel, SectionTitle, Accent, Reveal, Tag } from '../ui';
 import { hackathons } from '../../data';
 import { getAccentColor, getAccentBg, getAccentBorder } from '../../utils';
@@ -14,11 +14,8 @@ function HackathonCard({ hack, index }) {
   const accentBdr   = getAccentBorder(hack.color, 0.2);
 
   return (
-    <motion.div
-      initial={{ opacity: 0, y: 24 }}
-      whileInView={{ opacity: 1, y: 0 }}
-      viewport={{ once: true, amount: 0.1 }}
-      transition={{ duration: 0.6, delay: index * 0.08, ease: [0.16, 1, 0.3, 1] }}
+    <div
+
       style={{
         borderRadius: 16, overflow: 'hidden',
         border: `1px solid ${accentBdr}`,
@@ -89,7 +86,7 @@ function HackathonCard({ hack, index }) {
           {hack.desc}
         </p>
       </div>
-    </motion.div>
+    </div>
   );
 }
 
@@ -151,7 +148,7 @@ export default function Hackathons() {
   return (
     <section id="hackathons" className="section-wrapper">
       <Reveal>
-        <SectionLabel>// 05. hackathons</SectionLabel>
+        <SectionLabel>&#47;&#47; 05. hackathons</SectionLabel>
         <SectionTitle>
           3 UK Hackathons.<br />
           <Accent>1 podium finish.</Accent>
