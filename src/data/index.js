@@ -5,7 +5,7 @@ export const personal = {
   tagline: "Microservices · AI Systems · Backend Architecture",
   summary:
     "Full-Stack Software Engineer with 4+ years of professional experience across microservices, AI systems, and production-scale platforms. Currently pursuing MSc Advanced Computer Science at Northumbria University, Newcastle.",
-  email: "malviyasumit7987@gmail.com",
+  email: "malviyasumit2000@gmail.com",
   phone: "+44 7386 909984",
   location: "Newcastle, UK",
   cvUrl:
@@ -448,5 +448,5 @@ Won Best Performer & Team Lead Award at SmartGig Technologies (Q2 2023, CEO Mahe
 Confirmed MSc Modules: KL7011 Advanced Databases (Oracle SQL, Star Schema, B-tree index optimisation with EXPLAIN PLAN on 1M+ row fact table, data mining), KF7028 Research Methods (mixed methods, GDPR, IoT cybersecurity literature review), KF7014 Advanced Programming (microservices Spring Boot+MongoDB — Water Quality Monitoring System), KF7031 Wireless Network & Security (WLAN design, OMNeT++ simulation), KF7032 Big Data & Cloud Computing (Azure, Spark, Python), KV7006 Machine Learning (CNN+BiLSTM ECG classification, YOLO detection).
 Skills: React, Angular, Node.js, Python (Django), Spring Boot, FastAPI, MongoDB, PostgreSQL, Azure, AWS, Docker, TypeScript.
 Projects: Traffic Digital Twin (YOLOv8+FastAPI dissertation), Water Quality Microservices (KF7014 — Spring Boot+MongoDB+JWT), ECG Classification (KV7006 — CNN+BiLSTM), Trainery One (React+Django, trainery.one), LYWO recruitment platform (lywo.in), ConvoHub AI (personal startup — actively in development, LLM backend + client SDK).
-Email: malviyasumit7987@gmail.com | GitHub: github.com/sumitCoderNotFound | LinkedIn: linkedin.com/in/sumit-malviya-0b77a51a5/
+Email: malviyasumit2000@gmail.com | GitHub: github.com/sumitCoderNotFound | LinkedIn: linkedin.com/in/sumit-malviya-0b77a51a5/
 He is open to UK full-stack, backend, and graduate software engineering roles at product-based companies.`;
