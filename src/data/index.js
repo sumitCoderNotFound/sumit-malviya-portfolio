@@ -9,7 +9,7 @@ export const personal = {
   phone: "+44 7386 909984",
   location: "Newcastle, UK",
   cvUrl:
-    "https://drive.google.com/file/d/18c9Lt9JCsZ_eV3sayfB3gA9A-1-bVxrv/view",
+    "https://drive.google.com/file/d/1JuitLuam_nM_EbHdlCPZgCzkWDIiWRT9/view?usp=sharing",
   github: "https://github.com/sumitCoderNotFound",
   linkedin: "https://www.linkedin.com/in/sumit-malviya-0b77a51a5/",
   hireable: true,
