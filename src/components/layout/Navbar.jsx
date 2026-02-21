@@ -69,7 +69,7 @@ export default function Navbar() {
         <li>
           <motion.a
             whileHover={{ background: 'rgba(59,130,246,0.2)' }}
-            href="https://drive.google.com/file/d/18c9Lt9JCsZ_eV3sayfB3gA9A-1-bVxrv/view"
+            href="https://drive.google.com/file/d/1JuitLuam_nM_EbHdlCPZgCzkWDIiWRT9/view?usp=sharing"
             target="_blank"
             rel="noreferrer"
             style={{
