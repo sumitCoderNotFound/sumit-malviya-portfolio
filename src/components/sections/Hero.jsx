@@ -2,7 +2,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { useTypingEffect } from '../../hooks';
-import { Button, Reveal } from '../ui';
+import { Button } from '../ui';
 import { personal, typingStrings, heroStats } from '../../data';
 import { scrollTo } from '../../utils';
 

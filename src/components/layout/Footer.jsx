@@ -1,6 +1,4 @@
 import React from 'react';
-import { personal } from '../../data';
-
 export default function Footer() {
   return (
     <footer style={{
